@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    height: 100%;
+    background: #131419;
+}
+
+.clock{
+    background: #131419;
+    height: 12rem;
+    width: 75rem;
+    line-height: 12rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.05),
+                            3px 3px 5px rgba(0, 0, 0, 0.5)
+}
+
+.clock .display{
+    font-size: 6rem;
+    color: #e84545;
+    letter-spacing: .5rem;
+}
